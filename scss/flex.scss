@@ -1,0 +1,8 @@
+// control flex layout
+@mixin flex($direction: row, $justContent: center, $alignItem: center, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justContent;
+  align-items: $alignItem;
+  flex-wrap: $wrap;
+}
